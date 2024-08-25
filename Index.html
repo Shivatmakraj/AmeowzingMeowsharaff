@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ameowzing Meowsharaff</title>
+    <style>
+      .body {
+        background-color: rgb(248, 247, 235);
+      }
+      /*50*/
+      .case-sum {
+        background-color: gray;
+        border: 1px solid black;
+        text-align: center;
+      }
+      .header-1 {
+        border: solid;
+        left: 0;
+        top: 0;
+        font-size: large;
+        background-color: #333;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        z-index: 10000;
+      }
+      .intro {
+        margin-right: 50%;
+        margin-top: 50px;
+      }
+      .Subscript {
+        font-size: xx-small;
+      }
+      .arg {
+        padding-left: 50%;
+      }
+      .arg h2 {
+        padding-left: 0%;
+      }
+      .hist {
+        text-align: center;
+        font-weight: bold;
+      }
+      .cert {
+        margin: 25%;
+        margin-top: 2px;
+        height: 350px;
+        width: 50%;
+        text-align: center;
+        border: 20px solid burlywood;
+        background-color: antiquewhite;
+      }
+      .case {
+        width: 50%;
+        background-color: rgb(245, 243, 227);
+      }
+      .abt {
+        margin-right: 50%;
+      }
+      .btm {
+        margin-top: 100px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+      }
+      .btm button {
+        background-color: #333;
+      }
+      .btm button:hover {
+        cursor: crosshair;
+        background-color: white;
+      }
+      .cert img {
+        width: 50%;
+        height: 50%;
+      }
+
+      .placeholder {
+        bottom: 0;
+        height: 100px;
+
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div id="empt" class="footer"></div>
+    <div class="header-1">
+      <h> Ameowzing Meowsharaff </h>
+    </div>
+
+    <div class="intro">
+      <p6
+        >Have you been in a car accident? Perhaps a couple. May it be that you
+        have "Accidentely" blew up the twin towers? Or killed a family of 9?<sub
+          class="Subscript"
+          >allegedly</sub
+        >
+        Well you have picked the right cat for the job.
+      </p6>
+    </div>
+    <div class="abt">
+      <h2>Who am I?</h2>
+      <p>
+        I am Meohowmad Meowsharaff, or otherwise known as Ameowzing Meowsharaff,
+        Born on 12th August 1972, I am quiet old. But as we say old is gold and
+        I am quiet the reliable person ifyou ask me, about 30 years of
+        experience as a terrosr- I mean a government certified agent I am quiet
+        the specimen, my closing arguments sends the jaws of my opposition the
+        meown.<br /><br />
+        I also like to find the people suffering from big corporations and
+        planing to start a revolution and "help them", I dont mean to be ego
+        centric but, I am the jack of all trades.
+      </p>
+    </div>
+    <div class="arg">
+      <h2>Why Me?</h2>
+      <p>
+        In simple words, I connect with my clients on a very personal level with
+        which any attorney in Mewotropolitan Meowyork could. In even simpler
+        words, I am the best. My connection with my clients runs deep, very
+        deep, you see I may have
+        <sub class="Subscript">allegedly</sub> have commited some crimes of my
+        own and also condemn the superficial attorneys that do not understand
+        the actual magnitude of the sentence they joke about.
+      </p>
+    </div>
+    <div class="hist">
+      <h2>
+        My<sup class="Subscript">totally legit</sup> Educational background
+      </h2>
+      <div class="cert">
+        <p>
+          <b>This is to certify</b><br />
+          The credibility of <i>Sir. Mehowmad Meowsharaff</i> as a totally legit
+          lawyer<br />
+          Anyone who questions this is wrong and stupid and deserves pickles
+        </p>
+        <img src="Harvard_Law_School_shield_2021.svg" alt="Harvard law" />
+        <p style="margin-top: 10%"><b>Class rank:</b>1st in 2000000000</p>
+      </div>
+    </div>
+    <h style="text-align: center; font-size: xx-large">
+      A Brief Preview of My Cases:
+    </h>
+    <div class="case">
+      <div id="case1">
+        <h2>Kitler vs Meowlin:</h2>
+        <p>
+          I'm sure you have hear about your beloved leader
+          <sup class="Subscript">heil</sup>Kitler, in the year 20124 and the
+          month of Feburary, he was faced with a lawsuit against Meowlin on the
+          grounds of murder, attempted murder, conspiracy to murder against his
+          political rival Meowlin. With virtually a tiny speck of evidence.. the
+          case was blown out of proportions against our beloved dict- I MEAN
+          leader <sup class="Subscript">heil</sup>Kitler, when I was handed the
+          case and consequently the trust of his; I became death destroyed of
+          worlds. I managed to negotiate an offer of a fine of $25,000 only to
+          refuse it and proceede to a trial where I crushed Meowyork's meowskers
+          and counter sued them on the grounds of defemation and disqualified
+          Meowlin from the elections.
+        </p>
+      </div>
+      <div class="case2">
+        <h> Meowlin's Embezelment </h>
+      </div>
+    </div>
+    <div class="btm">
+      <button class="container" onclick="gotodiv('intro')">Intro</button>
+      <button class="container" onclick="gotodiv('arg')">Why me?</button>
+      <button class="container" onclick="gotodiv('cert')">
+        My certificate
+      </button>
+    </div>
+    <script>
+      function gotodiv(section) {
+        document
+          .querySelector("." + section)
+          .scrollIntoView({ behavior: "smooth" });
+      }
+      console.log(window.innerHeight);
+    </script>
+    <table class="case-sum">
+      <col />
+      <col />
+      <col />
+      <col />
+      <tr>
+        <th>Serial</th>
+        <th>Type</th>
+        <th>Amount</th>
+        <th>Time span</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Criminal</td>
+        <td>$500,000</td>
+        <td>2years</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Civil</td>
+        <td>&550,000</td>
+        <td>2.5years</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Criminal</td>
+        <td>%200,000</td>
+        <td>1year</td>
+      </tr>
+    </table>
+    <div class="placeholder" placeholder></div>
+  </body>
+</html>
